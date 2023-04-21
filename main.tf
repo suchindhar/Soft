@@ -12,7 +12,7 @@ terraform {
 #provider block
 provider "aws" {
   region  = "ap-south-1"
-  profile = "default"
+  
 }
 #resource block 
 resource "aws_instance" "My-Ec2-Instance" {
